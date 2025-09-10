@@ -1,8 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "PKNU Library Proxy Redirector",
-  "version": "2.0",
-  "description": "링크를 부경대학교 도서관 프록시 서버로 연결합니다.",
+  "name": "PKNU Library Proxy",
+  "version": "2.1",
+  "description": "학술DB 링크를 부경대학교 도서관 프록시로 연결합니다.",
+  "icons": {
+    "300": "images/icon.png"
+  },
   "permissions": [
     "declarativeNetRequest"
   ],
