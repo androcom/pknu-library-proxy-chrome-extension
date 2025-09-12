@@ -42,7 +42,7 @@
     [
       "dbpia.co.kr/journal/articleDetail?nodeId=",
       "riss.kr/search/detail/DetailView.do?p_mat_type=",
-      "https://kiss.kstudy.com/Detail/Ar?key="
+      "kiss.kstudy.com/Detail/Ar?key="
     ]
     ```
 3.  파일을 저장한 후, `chrome://extensions` 페이지로 이동하여 이 확장 프로그램의 **새로고침 아이콘**🔄 을 클릭해야 변경사항이 적용됩니다.
