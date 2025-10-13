@@ -5,8 +5,8 @@
 ---
 ## ✨ 주요 기능
 
--   ✅ 지정된 URL을 감지하여 프록시 서버 URL로 자동 리디렉션
--   ✍️ `patterns.json` 파일을 통해 사용자가 직접 대상 사이트를 쉽게 추가 및 관리 가능
+-   ✅ DBpia, RISS, KISS 3개의 지정된 사이트 접속 시 프록시 서버로 자동 리디렉션
+-   ⚙️ 별도의 설정이 필요 없는 간단한 설치와 사용
 -   🚀 Manifest V3와 `declarativeNetRequest` API를 사용하여 빠르고 안전하게 동작
 
 ---
@@ -30,22 +30,6 @@
 
 4.  **🎉 설치 완료**
     -   확장 프로그램 목록에 `PKNU Library Proxy`가 추가되면 설치가 완료된 것입니다. 이제부터 지정된 사이트에 접속 시 자동으로 리디렉션됩니다.
-
----
-## 📝 대상 사이트 추가 및 수정 방법
-
-`patterns.json` 파일을 직접 수정하여 리디렉션을 적용할 사이트 목록을 관리할 수 있습니다.
-
-1.  설치된 확장 프로그램 폴더에서 `patterns.json` 파일을 텍스트 편집기(메모장, VSCode 등)로 엽니다.
-2.  아래와 같은 형식에 맞춰 원하는 URL 패턴을 추가하거나 삭제합니다.
-    ```json
-    [
-      "dbpia.co.kr/journal/articleDetail?nodeId=",
-      "riss.kr/search/detail/DetailView.do?p_mat_type=",
-      "kiss.kstudy.com/Detail/Ar?key="
-    ]
-    ```
-3.  파일을 저장한 후, `chrome://extensions` 페이지로 이동하여 이 확장 프로그램의 **새로고침 아이콘**🔄 을 클릭해야 변경사항이 적용됩니다.
 
 ---
 ## ⚠️ 주의사항
