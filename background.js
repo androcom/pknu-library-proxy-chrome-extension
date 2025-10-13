@@ -47,5 +47,6 @@ async function updateRules() {
 }
 
 // 확장 프로그램이 처음 설치됐을 때, 업데이트될 때, 브라우저가 시작될 때 실행
-chrome.runtime.onInstalled.addListener(updateRules);
-chrome.runtime.onStartup.addListener(updateRules);
+chrome.runtime.onInstalled.addListener(() => {
+  updateRules();
+});
